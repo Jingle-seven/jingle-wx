@@ -6,7 +6,8 @@ import jingle.demo.work.SkData as SkData
 
 tableHead = ['序号','村委','姓名','公民身份号码','性别','已缴费月数','当前缴费档次','是否购买职工社保']
 escapeNames = ['戴金兰','谭大妹','钟达海','陈如章','刘荣','李英山','戴东北','蓝善付']
-xlsName = '21年1月农保待遇核定'
+hadNames = ['吴林凤','何文鲜','谢加贤','刘洪疆']
+xlsName = '21年2月农保待遇核定'
 dir = 'C:/Users/Administrator/Desktop/农保/农保每月待遇核定/'
 txtPath = dir + xlsName + '.txt'
 txtFile = open(txtPath,encoding='gbk')
