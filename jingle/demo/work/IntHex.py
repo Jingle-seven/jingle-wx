@@ -13,5 +13,10 @@
 # a = [1,2,3] #index 0,1,2
 # a.insert(3,'x')
 # print(a)
-s = '123456789'
-print(s.replace('1','').replace('2',''))
+# s = '123456789'
+# print(s.replace('1','').replace('2',''))
+s = ['a','b','c','d','e',]
+for i in s:
+    if i == 'c' or i == 'b' :
+        s.pop()
+    print(i)

@@ -16,7 +16,7 @@ def isErrorIdNumber(idNum):
         return True # 如果是不是数字，视为错误身份证号码
     if checkCode[sum % 11] == int(idList[17]): # 如果加和结果与最后一位校验码相同，说明是正确的身份证号码
         return False
-    print('错误的身份证号：',idList,checkCode[sum % 11])
+    # print('错误的身份证号：',idList,checkCode[sum % 11])
     return True
 
 def isErrorBankNum(bankNum):
@@ -46,3 +46,5 @@ for row in sheet.values:
         print('身份证错',row[2],row[3])
     if isErrorBankNum(row[7]):
         print('银行卡错',row[2],row[3],row[7])
+
+print("检查完成")
