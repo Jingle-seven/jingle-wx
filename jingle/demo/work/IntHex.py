@@ -16,6 +16,8 @@
 # s = '123456789'
 # print(s.replace('1','').replace('2',''))
 s = ['a','b','c','d','e',]
+for i in range(0,len(s)):
+    print(i)
 for i in s:
     if i == 'c' or i == 'b' :
         s.pop()
