@@ -1,39 +1,74 @@
 
 01 What is your idea of perfect happiness ?你认为最完美的幸福是怎样的？
+x万事如意z没有最完美只有更完美
 02 What is your greatest fear ?你最大的恐惧是什么？
+xz爱的人老病死，爱的人离开
 03 What is the trait you most deplore in yourself ?你最痛恨自己的哪些特质？
+x懦弱不主动不够自律z虚伪没自信太在意别人看法
 04 What is the trait you most deplore in others ?你最痛恨别人的什么特点？
+z目中无人自以为是嚼舌根x强加给我不喜欢的东西，额外工作等
 05 Which living person do you most admire ?还在世的人中你最欣赏的是谁？
+x我爸，让家里过上好生活z杨华英，懂事口才好有见地直来直往对小梅好。曾金英，自律每天跑十公里
 06 What is your greatest extravagance ?你最大的奢侈品是什么？
+x电脑z牙套
 07 What is your current state of mind ?你目前的心境怎样？
+x和小梅在一起，安宁快乐z安心享受在一起的时间，不想其他事
 08 What do you consider the most overrated virtue ?你认为哪种美德是被过高评价的？
+x有钱z好看
 09 On what occasion do you lie ?什么情况下你会撒谎？
+x太难解释来龙去脉z避免冲突的情况下
 10 What do you most dislike about your appearance ?你对自己的外表哪一点不满意？
+x体态不好z矮
 11 Which living person do you most despise ?还在世的人中你最鄙视谁？
+x没能力却拿高报酬的人如郑爽z 踩低别人抬高自己的人如the婊子
 12 What is the quality you most like in a man ?你最喜欢男性身上的什么品质？
+z给人安全感稳重专一
 13 What is the quality you most like in a woman ?你最喜欢女性身上的什么品质？
+x温柔体贴
 14 Which words or phrases do you most overuse ?你最常使用的单词或短语是什么？
+x好well z嗯
 15 What or who is the greatest love of your life ?你这一生中最伟大的爱是谁/什么？
+xz爸妈
 16 When and where were you happiest ?何时何地让你感觉到最快乐？
+x刚开始玩好玩游戏的时候z出发旅游前一晚
 17 Which talent would you most like to have ?你最想拥有哪种才能？
+x赚钱能力z过目不忘口才钢琴
 18 If you could change one thing about yourself, what would it be ?如果你能够改变自己的一件事，那会是什么？
+x大学多实习接触社会z读高中读大学
 19 What do you consider your greatest achievement ?你认为自己最大的成就是什么？
+x大学毕业 z通过幼儿园面试，以前是进货杀价和成绩好
 20 If you were to die and come back as a person or a thing, what would it be ?如果有转世，你希望成为什么样的人或物？
+x休闲舒展的云z风
 21 Where would you most like to live ?你最想住在哪里？
+z上海x爸妈和爱的人在的风景好的好玩地方，比如黎口下坪
 22 What is your most treasured possession ?你最珍贵的财产是什么？
+x书z各种证书
 23 What do you regard as the lowest depth of misery ?你认为程度最浅的痛苦是什么？
+x晚一分钟吃饭z想喝水拿起杯子没水
 24 What is your favorite occupation ?你最喜欢的职业是什么？
+x风光摄影师z暂时没想到
 25 What is your most marked characteristic ?你最显著的特点是什么？
+x呆板z善良
 26 What do you most value in your friends ?你最看重朋友的什么特点？
+x忠诚有趣z优秀开朗
 27 Who are your favorite writers ?你最喜欢的作家是谁？
-28 Who is your hero of fiction ?谁是你心目中小说里的英雄？
+z不爱看书 x村上春树
+28 Who is your hero of fiction ?谁是你小说里的英雄？
+x小天狼星 z没有小说里的英雄，熊熊就是小梅的英雄
 29 Which historical figure do you most identify with ?你最认同哪位历史人物？
+x毛泽东z毛泽东
 30 Who are your heroes in real life ?谁是你现实生活中的英雄？
+x爸妈z爸妈
 31 What are your favorite names ?你最喜欢的名字是什么？
+z熊熊x小梅
 32 What is it that you most dislike ?你最不喜欢什么？
+x疾病和衰老z别人骗我
 33 What is your greatest regret ?你最大的遗憾是什么？
+x第一志愿没填更好的大学z没读高中大学
 34 How would you like to die ?你想以何种方式死去？
+x无痛苦无意识z无痛苦祥和
 35 What is your motto ?你的座右铭是什么？
+z目前没有，以前的忘了x凡事预则立不预则废
 Awaken your inner goddess.You are all free.那么你有什么样的答案？
 
 本问卷因普鲁斯特的经典回答而被命名，以下是普鲁斯特的回答：
@@ -65,3 +100,5 @@ Awaken your inner goddess.You are all free.那么你有什么样的答案？
 12.你最希望具有怎样的天赋？——意志力强与难以抗拒的吸引力
 13.你感觉最被纵容的错误是什么？——那些我可以理解的错误
 14.什么是你的座右铭？——我宁愿不说，担心那会带给我坏运气
+
+ 
