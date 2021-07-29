@@ -4,8 +4,9 @@
 import openpyxl,time
 import jingle.demo.work.SkData as SkData
 
-tableHead = ['序号','村委','姓名','公民身份号码','性别','已缴费月数','当前缴费档次','是否购买职工社保']
+tableHead = ['序号','村委','姓名','公民身份号码','性别','已缴月数','当前缴费档次','是否购买职工社保']
 monthStr = time.strftime("%Y年%m月", time.localtime())
+dayStr = time.strftime("%Y%m%d", time.localtime())
 xlsName = monthStr + '农保待遇名单'
 dir = 'C:/Users/Administrator/Desktop/农保/农保每月待遇核定/'
 rawXsl = openpyxl.load_workbook(dir + monthStr + '导出.xlsx')
@@ -23,11 +24,12 @@ resSheet2.append(tableHead)
 rowNum = 2
 paidCount = 1
 notPaidCount = 1
+# 7月开始新导出的多了一列参保时间，影响判断，删除
 for x in sheet0.values:
-    # print(x)
+    # print(x[4],x[5])
     if x[4] == '未领取' and x[5] == '参保缴费': #
         rowNum  = rowNum + 1
-        sex = '女' if (int(x[1][-2]))/2==0 else '男'
+        sex = '女' if (int(x[1][-2]))%2==0 else '男'
         row = [rowNum-2,x[7].replace('村委会',''),x[3],x[1][0:-6]+'***',sex,'','','否']
         print(row)
         resSheet.append(row)
@@ -35,4 +37,4 @@ for x in sheet0.values:
 
 SkData.setBorderWidth(resSheet, 25) # 设置边框直到25行
 SkData.setBorderWidth(resSheet2, 25) # 设置边框直到25行
-wbook.save(dir + xlsName + '.xlsx')
+wbook.save(dir + xlsName + dayStr + '.xlsx')

@@ -2,13 +2,13 @@
 # 通讯录补空
 
 import time,openpyxl
-fileName = 'C:/Users/Administrator/Desktop/水口通讯录待导入.xlsx'
+fileName = 'C:/Users/Administrator/Desktop/txl.xlsx'
 
 book = openpyxl.load_workbook(fileName)
 sheet = book['Sheet1']
 dept = None
 name = None
-
+# 填充空白并合并部门和姓名
 for rowNum in range(2,sheet.max_row+1):
 
     deptCell = sheet.cell(rowNum, 1)

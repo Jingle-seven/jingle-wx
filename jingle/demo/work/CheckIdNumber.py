@@ -39,8 +39,15 @@ def isErrorBankNum(bankNum):
     return True
 
 
-xsl = openpyxl.load_workbook('C:/Users/Administrator/Desktop/农保/新农保开户/农保开户汇总表2020-2021.xlsx')
-sheet = xsl['2021']
+xsl = openpyxl.load_workbook('E:/desk/常用文件夹/农保/新农保开户//农保开户汇总表2020-2021.xlsx')
+sheet = xsl['2021'] #开户表
+for row in sheet.values:
+    if isErrorIdNumber(row[3]):
+        print('身份证错',row[2],row[3])
+    if isErrorBankNum(row[7]):
+        print('银行卡错',row[2],row[3],row[7])
+
+sheet = xsl['销户'] #销户表
 for row in sheet.values:
     if isErrorIdNumber(row[3]):
         print('身份证错',row[2],row[3])
